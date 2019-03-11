@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4B51F0223622ED008E0D53 /* ALNTestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B51EF223622ED008E0D53 /* ALNTestCell.swift */; };
+		3D4B51F222362300008E0D53 /* ALNTestTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B51F122362300008E0D53 /* ALNTestTableView.swift */; };
+		3D4B51F422362311008E0D53 /* ALNTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B51F322362311008E0D53 /* ALNTestModel.swift */; };
+		3D4B51F622362329008E0D53 /* ALNTestColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B51F522362329008E0D53 /* ALNTestColor.swift */; };
+		3D4CC7172233FD03005C5400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC7162233FD03005C5400 /* AppDelegate.swift */; };
+		3D4CC7192233FD03005C5400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC7182233FD03005C5400 /* ViewController.swift */; };
+		3D4CC71C2233FD03005C5400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4CC71A2233FD03005C5400 /* Main.storyboard */; };
+		3D4CC71E2233FD04005C5400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4CC71D2233FD04005C5400 /* Assets.xcassets */; };
+		3D4CC7212233FD04005C5400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4CC71F2233FD04005C5400 /* LaunchScreen.storyboard */; };
+		3D4CC72C2233FD04005C5400 /* NestedScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC72B2233FD04005C5400 /* NestedScrollViewTests.swift */; };
+		3D4CC7372233FD05005C5400 /* NestedScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC7362233FD05005C5400 /* NestedScrollViewUITests.swift */; };
+		3D4CC74622340300005C5400 /* ALNTitleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC74522340300005C5400 /* ALNTitleProtocol.swift */; };
+		3D4CC74822340313005C5400 /* ALNContentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC74722340313005C5400 /* ALNContentProtocol.swift */; };
+		3D4CC74A22340325005C5400 /* ALNTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC74922340325005C5400 /* ALNTitleView.swift */; };
+		3D4CC74C22340339005C5400 /* ALNContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC74B22340339005C5400 /* ALNContentView.swift */; };
+		3D4CC74E2234034B005C5400 /* ALNScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC74D2234034B005C5400 /* ALNScrollView.swift */; };
+		3D4CC75022340359005C5400 /* ALNModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4CC74F22340359005C5400 /* ALNModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D4CC7282233FD04005C5400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4CC70B2233FD03005C5400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4CC7122233FD03005C5400;
+			remoteInfo = NestedScrollView;
+		};
+		3D4CC7332233FD05005C5400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D4CC70B2233FD03005C5400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D4CC7122233FD03005C5400;
+			remoteInfo = NestedScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D4B51EF223622ED008E0D53 /* ALNTestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNTestCell.swift; sourceTree = "<group>"; };
+		3D4B51F122362300008E0D53 /* ALNTestTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNTestTableView.swift; sourceTree = "<group>"; };
+		3D4B51F322362311008E0D53 /* ALNTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNTestModel.swift; sourceTree = "<group>"; };
+		3D4B51F522362329008E0D53 /* ALNTestColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNTestColor.swift; sourceTree = "<group>"; };
+		3D4CC7132233FD03005C5400 /* NestedScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4CC7162233FD03005C5400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D4CC7182233FD03005C5400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D4CC71B2233FD03005C5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D4CC71D2233FD04005C5400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D4CC7202233FD04005C5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D4CC7222233FD04005C5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4CC7272233FD04005C5400 /* NestedScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4CC72B2233FD04005C5400 /* NestedScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedScrollViewTests.swift; sourceTree = "<group>"; };
+		3D4CC72D2233FD04005C5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4CC7322233FD05005C5400 /* NestedScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4CC7362233FD05005C5400 /* NestedScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedScrollViewUITests.swift; sourceTree = "<group>"; };
+		3D4CC7382233FD05005C5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D4CC74522340300005C5400 /* ALNTitleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNTitleProtocol.swift; sourceTree = "<group>"; };
+		3D4CC74722340313005C5400 /* ALNContentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNContentProtocol.swift; sourceTree = "<group>"; };
+		3D4CC74922340325005C5400 /* ALNTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNTitleView.swift; sourceTree = "<group>"; };
+		3D4CC74B22340339005C5400 /* ALNContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNContentView.swift; sourceTree = "<group>"; };
+		3D4CC74D2234034B005C5400 /* ALNScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNScrollView.swift; sourceTree = "<group>"; };
+		3D4CC74F22340359005C5400 /* ALNModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALNModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D4CC7102233FD03005C5400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4CC7242233FD04005C5400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4CC72F2233FD05005C5400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4CC70A2233FD03005C5400 = {
+			isa = PBXGroup;
+			children = (
+				3D4CC7152233FD03005C5400 /* NestedScrollView */,
+				3D4CC72A2233FD04005C5400 /* NestedScrollViewTests */,
+				3D4CC7352233FD05005C5400 /* NestedScrollViewUITests */,
+				3D4CC7142233FD03005C5400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D4CC7142233FD03005C5400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4CC7132233FD03005C5400 /* NestedScrollView.app */,
+				3D4CC7272233FD04005C5400 /* NestedScrollViewTests.xctest */,
+				3D4CC7322233FD05005C5400 /* NestedScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D4CC7152233FD03005C5400 /* NestedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3D4CC7442234028D005C5400 /* NestedScrollView */,
+				3D4CC7162233FD03005C5400 /* AppDelegate.swift */,
+				3D4CC7182233FD03005C5400 /* ViewController.swift */,
+				3D4CC71A2233FD03005C5400 /* Main.storyboard */,
+				3D4CC71D2233FD04005C5400 /* Assets.xcassets */,
+				3D4CC71F2233FD04005C5400 /* LaunchScreen.storyboard */,
+				3D4CC7222233FD04005C5400 /* Info.plist */,
+				3D4B51EF223622ED008E0D53 /* ALNTestCell.swift */,
+				3D4B51F122362300008E0D53 /* ALNTestTableView.swift */,
+				3D4B51F322362311008E0D53 /* ALNTestModel.swift */,
+				3D4B51F522362329008E0D53 /* ALNTestColor.swift */,
+			);
+			path = NestedScrollView;
+			sourceTree = "<group>";
+		};
+		3D4CC72A2233FD04005C5400 /* NestedScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4CC72B2233FD04005C5400 /* NestedScrollViewTests.swift */,
+				3D4CC72D2233FD04005C5400 /* Info.plist */,
+			);
+			path = NestedScrollViewTests;
+			sourceTree = "<group>";
+		};
+		3D4CC7352233FD05005C5400 /* NestedScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D4CC7362233FD05005C5400 /* NestedScrollViewUITests.swift */,
+				3D4CC7382233FD05005C5400 /* Info.plist */,
+			);
+			path = NestedScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		3D4CC7442234028D005C5400 /* NestedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3D4CC74522340300005C5400 /* ALNTitleProtocol.swift */,
+				3D4CC74722340313005C5400 /* ALNContentProtocol.swift */,
+				3D4CC74922340325005C5400 /* ALNTitleView.swift */,
+				3D4CC74B22340339005C5400 /* ALNContentView.swift */,
+				3D4CC74D2234034B005C5400 /* ALNScrollView.swift */,
+				3D4CC74F22340359005C5400 /* ALNModel.swift */,
+			);
+			path = NestedScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D4CC7122233FD03005C5400 /* NestedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4CC73B2233FD05005C5400 /* Build configuration list for PBXNativeTarget "NestedScrollView" */;
+			buildPhases = (
+				3D4CC70F2233FD03005C5400 /* Sources */,
+				3D4CC7102233FD03005C5400 /* Frameworks */,
+				3D4CC7112233FD03005C5400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedScrollView;
+			productName = NestedScrollView;
+			productReference = 3D4CC7132233FD03005C5400 /* NestedScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D4CC7262233FD04005C5400 /* NestedScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4CC73E2233FD05005C5400 /* Build configuration list for PBXNativeTarget "NestedScrollViewTests" */;
+			buildPhases = (
+				3D4CC7232233FD04005C5400 /* Sources */,
+				3D4CC7242233FD04005C5400 /* Frameworks */,
+				3D4CC7252233FD04005C5400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4CC7292233FD04005C5400 /* PBXTargetDependency */,
+			);
+			name = NestedScrollViewTests;
+			productName = NestedScrollViewTests;
+			productReference = 3D4CC7272233FD04005C5400 /* NestedScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D4CC7312233FD05005C5400 /* NestedScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4CC7412233FD05005C5400 /* Build configuration list for PBXNativeTarget "NestedScrollViewUITests" */;
+			buildPhases = (
+				3D4CC72E2233FD05005C5400 /* Sources */,
+				3D4CC72F2233FD05005C5400 /* Frameworks */,
+				3D4CC7302233FD05005C5400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D4CC7342233FD05005C5400 /* PBXTargetDependency */,
+			);
+			name = NestedScrollViewUITests;
+			productName = NestedScrollViewUITests;
+			productReference = 3D4CC7322233FD05005C5400 /* NestedScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D4CC70B2233FD03005C5400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Allah;
+				TargetAttributes = {
+					3D4CC7122233FD03005C5400 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3D4CC7262233FD04005C5400 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3D4CC7122233FD03005C5400;
+					};
+					3D4CC7312233FD05005C5400 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3D4CC7122233FD03005C5400;
+					};
+				};
+			};
+			buildConfigurationList = 3D4CC70E2233FD03005C5400 /* Build configuration list for PBXProject "NestedScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D4CC70A2233FD03005C5400;
+			productRefGroup = 3D4CC7142233FD03005C5400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D4CC7122233FD03005C5400 /* NestedScrollView */,
+				3D4CC7262233FD04005C5400 /* NestedScrollViewTests */,
+				3D4CC7312233FD05005C5400 /* NestedScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D4CC7112233FD03005C5400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4CC7212233FD04005C5400 /* LaunchScreen.storyboard in Resources */,
+				3D4CC71E2233FD04005C5400 /* Assets.xcassets in Resources */,
+				3D4CC71C2233FD03005C5400 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4CC7252233FD04005C5400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4CC7302233FD05005C5400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D4CC70F2233FD03005C5400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4CC7192233FD03005C5400 /* ViewController.swift in Sources */,
+				3D4CC74E2234034B005C5400 /* ALNScrollView.swift in Sources */,
+				3D4CC7172233FD03005C5400 /* AppDelegate.swift in Sources */,
+				3D4B51F422362311008E0D53 /* ALNTestModel.swift in Sources */,
+				3D4B51F222362300008E0D53 /* ALNTestTableView.swift in Sources */,
+				3D4CC74C22340339005C5400 /* ALNContentView.swift in Sources */,
+				3D4CC74622340300005C5400 /* ALNTitleProtocol.swift in Sources */,
+				3D4B51F622362329008E0D53 /* ALNTestColor.swift in Sources */,
+				3D4CC75022340359005C5400 /* ALNModel.swift in Sources */,
+				3D4B51F0223622ED008E0D53 /* ALNTestCell.swift in Sources */,
+				3D4CC74A22340325005C5400 /* ALNTitleView.swift in Sources */,
+				3D4CC74822340313005C5400 /* ALNContentProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4CC7232233FD04005C5400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4CC72C2233FD04005C5400 /* NestedScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4CC72E2233FD05005C5400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4CC7372233FD05005C5400 /* NestedScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D4CC7292233FD04005C5400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4CC7122233FD03005C5400 /* NestedScrollView */;
+			targetProxy = 3D4CC7282233FD04005C5400 /* PBXContainerItemProxy */;
+		};
+		3D4CC7342233FD05005C5400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D4CC7122233FD03005C5400 /* NestedScrollView */;
+			targetProxy = 3D4CC7332233FD05005C5400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D4CC71A2233FD03005C5400 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4CC71B2233FD03005C5400 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D4CC71F2233FD04005C5400 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D4CC7202233FD04005C5400 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4CC7392233FD05005C5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D4CC73A2233FD05005C5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4CC73C2233FD05005C5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z47NN92736;
+				INFOPLIST_FILE = NestedScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Allah.NestedScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildProfile;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D4CC73D2233FD05005C5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NestedScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Allah.NestedScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D4CC73F2233FD05005C5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Allah.NestedScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedScrollView.app/NestedScrollView";
+			};
+			name = Debug;
+		};
+		3D4CC7402233FD05005C5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Allah.NestedScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestedScrollView.app/NestedScrollView";
+			};
+			name = Release;
+		};
+		3D4CC7422233FD05005C5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Allah.NestedScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestedScrollView;
+			};
+			name = Debug;
+		};
+		3D4CC7432233FD05005C5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestedScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Allah.NestedScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestedScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D4CC70E2233FD03005C5400 /* Build configuration list for PBXProject "NestedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4CC7392233FD05005C5400 /* Debug */,
+				3D4CC73A2233FD05005C5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4CC73B2233FD05005C5400 /* Build configuration list for PBXNativeTarget "NestedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4CC73C2233FD05005C5400 /* Debug */,
+				3D4CC73D2233FD05005C5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4CC73E2233FD05005C5400 /* Build configuration list for PBXNativeTarget "NestedScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4CC73F2233FD05005C5400 /* Debug */,
+				3D4CC7402233FD05005C5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4CC7412233FD05005C5400 /* Build configuration list for PBXNativeTarget "NestedScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4CC7422233FD05005C5400 /* Debug */,
+				3D4CC7432233FD05005C5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D4CC70B2233FD03005C5400 /* Project object */;
+}
