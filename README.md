@@ -11,7 +11,7 @@
 ----
 基本使用：
 ----
-   let titleHeight: CGFloat = 50
+        let titleHeight: CGFloat = 50
         let nestedView: ALNScrollView = ALNScrollView(contentViews: tableViews as [UIScrollView & ALNContentProtocol])
         nestedView.frame = self.view.bounds
         nestedView.delegate = self
