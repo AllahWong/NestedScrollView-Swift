@@ -9,6 +9,10 @@
  主要功能：
     将标题和滚动的内容封装起来，组合成一个新的组件。
 ----
+ 预览
+---
+ ![image](https://github.com/AllahWong/NestedScrollView/blob/master/preview.png)
+----
 基本使用：
 ----
         let titleHeight: CGFloat = 50
